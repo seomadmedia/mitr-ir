@@ -15,7 +15,7 @@
       background: var(--back-light-new);
       border-radius: 5px;
       padding: 8px !important;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
   }
   
   .mweb-main-menu ul>li.level-0.mega-menu .menu-item-has-children>a .el_arrow {
