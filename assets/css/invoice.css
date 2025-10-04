@@ -1,0 +1,416 @@
+article, aside, details, figcaption, figure, footer, header, nav, section, summary {
+	display: block;
+	margin: 0;
+	padding: 0
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: 0;
+	box-sizing: border-box;
+}
+img {
+	border: none;
+	text-decoration: none;
+	outline: none;
+	max-width: 100%;
+	height: auto;
+}
+nav, ul, ol li, li {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+::selection {
+	background: #727d8a;
+	color: #fff
+}
+::-moz-selection {
+	background: #727d8a;
+	color: #fff
+}
+
+body {
+	direction: rtl;
+	font: 11px var(--mainfontnum);
+	text-align: right;
+	color: #333;
+    padding: 0.5cm;
+	overflow-x: hidden;
+	background-color: white;
+	margin: 0 auto;
+    max-width: 29.7cm;
+    -webkit-print-color-adjust: exact;
+	overflow: auto;
+	height: 100%;
+    width: 100%;
+}
+a {
+	color: #333;
+	text-decoration: none !important;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a:hover {
+	color: inherit;
+	text-decoration: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 13px;
+	font-weight: 500;
+	font-family: var(--mainfont), Tahoma;
+	margin: 0;
+	padding: 0;
+}
+strong, b {font-weight: 500;}
+
+.clear {
+	clear: both
+}
+.clear:after, .clear:before {
+	content: '';
+	display: block;
+	clear: both;
+}
+table {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #e9e9e9;
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 15px;
+  /*table-layout: fixed;*/
+  border-spacing: 0;
+}
+
+table td, table th {
+  border-width: 2px;
+  border-color: #e9e9e9;
+  border-style: solid;
+  padding: 14px 15px;
+  font-size: 12px;
+}
+table th{
+	font-weight: 500;
+	padding: 10px 15px;
+}
+table thead {
+  background-color: #fafafa;
+}
+td span{
+	display: block;
+}
+td span b{
+	display: inline-block;
+	margin-left: 5px;
+	font-weight: 500;
+}
+table th.num {
+    padding: 10px 5px;
+    text-align: center;
+}
+.order_info thead tr th{
+	width: 50%;
+	font-size: 13px;
+}
+.order_info tbody tr td span{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.order_info tbody tr td span b:after{
+	content: ' :'
+}
+.order_details tbody tr td:first-child{
+	text-align: center
+}
+.order_details .item_price, .order_details .total_price{
+	min-width: 120px
+}
+.order_details tfoot tr td{
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #fafafa;
+}
+.order_details tfoot tr td:last-child{}
+.order_details tfoot small{
+	color: #666
+}
+.amount{}
+.amount span{
+    display: inline-block;
+    font-size: 10px;
+}
+.container {
+   page-break-after: always;
+}
+.container_label{
+	page-break-after: always;
+	max-width: 720px;
+    margin: auto;
+}
+.container + .container{
+	 margin-top: 100px;
+}
+   
+
+
+.hd_order_detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.order_detail_item {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+.order_detail_item strong{
+	min-width: 100px;
+	display: inline-block;
+}
+.order_detail_item.has_barcode span{display: inline-flex;align-items: center;letter-spacing: 1px;font-size: 11px;}
+.order_detail_item.has_barcode img{
+    margin-left: -9px;
+}
+.order_detail_item.has_barcode span i{
+    font-style: normal;
+    border: 1px solid #ddd;
+    padding: 0px 10px;
+    line-height: 26px;
+    height: 26px;
+}
+
+span.inc_name {
+    width: 100%;
+}
+
+span.inc_state {
+    width: 50%;
+}
+
+span.inc_city {
+    width: 49%;
+}
+
+span.inc_postcode {
+    width: 50%;
+}
+
+span.inc_phone {
+    width: 49%;
+    /* text-align: left; */
+}
+
+.order_label_wrap {
+    display: block;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    margin: 25px 0 15px 0;
+    padding: 20px;
+    position: relative;
+}
+.order_label_wrap h5{
+	background-color: white;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	padding: 0 15px;
+	top: -13px;
+	font-size: 14px;
+}
+
+.seller_label_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.va_middle {
+    align-items: center;
+    justify-content: space-between;
+}
+.order_label_details .inc_address{
+	font-size: 13px;
+	margin: 3px 0;
+}
+
+.order_label_details .row>span{
+    display: inline-block;
+    text-align: right;
+    width: auto;
+    font-size: 13px;
+}
+.order_label_details .row>span.inc_phone{
+	text-align: left;
+}
+.va_middle span:not(last-child){
+	padding-left: 10px
+}
+.order_label_details b{
+	display: initial;
+	margin-left: 6px;
+}
+.order_label_details b:after{
+	content: ' :';
+	display: inline-block;
+	margin-right: 2px;
+}
+
+
+
+.label_order_date {
+    margin-left: 10px;
+    letter-spacing: 0;
+    background-color: #f2f2f2;
+    height: 26px;
+    padding: 0 10px;
+}
+.label_order_date strong{
+	min-width: auto;
+	margin-left: 8px;
+}
+.label_order_date span{width: auto !important;letter-spacing: 0 !important;}
+.order_note{
+	position: relative;
+}
+.order_note_title {
+    font-size: 11px;
+    height: 25px;
+    line-height: 26px;
+}
+.order_note_title:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ddd;
+    top: 12px;
+}
+.order_note_title h5 {
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.order_note_text {
+    font-size: 12px;
+    color: #666;
+}
+.print_btn, .close_btn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    top: 30px;
+    left: 100px;
+    background-color: #1ab125;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.close_btn{
+	top: 80px;
+	background-color: #ff6e63;
+}
+.print_btn svg, .close_btn svg{
+    fill: white;
+    max-width: 19px;
+}
+.close_btn svg{max-width: 17px;}
+.print_btn:hover, .close_btn:hover{
+	background-color: #9E9E9E;
+}
+@media print {
+	.print_btn, .close_btn{
+		display: none
+	}
+}
+
+.order_label_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: repeating-linear-gradient(-39deg, #494949 0px, #494949 22px, transparent 0px, transparent 2em, #e8e8e8 0px, #e8e8e8 49px, transparent 0px, transparent 4em) 18.7 / 1 / 0 stretch;
+    padding: 9px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-between;
+}
+.order_label_sec{
+	border: 1px solid #333;
+	padding: 15px;
+}
+.order_label_sec .order_label_details>strong{font-size: 13px;}
+.order_label_sec .row.va_middle{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+.order_label_sec .order_label_details .row>span{
+	width: 50%;
+	margin-top: 4px;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+}
+.order_label_sec .order_label_details .row>span.inc_postcode{
+    width: 44%;
+}
+.order_label_sec .order_label_details .row>span.inc_phone{
+    width: 56%;
+    display: flex;
+}
+
+ul.wc-item-meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul.wc-item-meta li{display: flex;margin-left: 10px;}
+ul.wc-item-meta li p{
+    margin-right: 3px
+}
+.signature{
+	position: relative;
+	margin-top: 45px;
+	font-size: 13px;
+	font-weight: 500;
+	display: inline-block;
+}
+.signature_logo{
+	position: absolute;
+	max-height: 100px;
+	right: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+img.invoice_logo {
+    max-width: 130px;
+}

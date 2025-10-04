@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TGM Plugin Activation\n"
+"POT-Creation-Date: 2015-06-25 21:41+0330\n"
+"PO-Revision-Date: 2015-06-25 21:42+0330\n"
+"Last-Translator: Amin <amin.pe94@gmail.vom>\n"
+"Language-Team: Dornaweb <info@dornaweb.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_n_noop\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../class-tgm-plugin-activation.php:165 ../required_plugins.php:83
+msgid "Install Required Plugins"
+msgstr "نصب پلاگین های مورد نیاز"
+
+#: ../class-tgm-plugin-activation.php:166 ../required_plugins.php:84
+msgid "Install Plugins"
+msgstr "نصب پلاگین ها"
+
+#: ../class-tgm-plugin-activation.php:167 ../required_plugins.php:85
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "در حال نصب پلاگین: %s"
+
+#: ../class-tgm-plugin-activation.php:168
+msgid "Something went wrong."
+msgstr "یک مشکل با نصب پلاگین ها پیش آمده است."
+
+#: ../class-tgm-plugin-activation.php:169 ../required_plugins.php:87
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr "این پوسته به این پلاگین نیاز دارد: %1$s."
+
+#: ../class-tgm-plugin-activation.php:170 ../required_plugins.php:88
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "این پوسته به این پلاگین ها نیاز دارد: %1$s."
+
+#: ../class-tgm-plugin-activation.php:171 ../required_plugins.php:89
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"شرمنده ، شما مجوز کافی برای نصب پلاگین %s را ندارید. برای نصب این پلاگین از "
+"مدیریت سایت کمک بخواهید."
+
+#: ../class-tgm-plugin-activation.php:172 ../required_plugins.php:90
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "پلاگین مورد نیاز زیر فعال نیست: %1$s."
+
+#: ../class-tgm-plugin-activation.php:173 ../required_plugins.php:91
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "پلاگین های مورد نیاز زیر فعال نیستند: %1$s."
+
+#: ../class-tgm-plugin-activation.php:174 ../required_plugins.php:92
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"شرمنده شما مجوز لازم برای فعالسازی پلاگین %s را ندارید. با مدیریت تماس "
+"بگیرید."
+
+#: ../class-tgm-plugin-activation.php:175 ../required_plugins.php:93
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"این پلاگین باید به آخرین نسخه به روزرسانی شود تا سازگاری با پوسته را به "
+"حداکثر برساند: %1$s."
+
+#: ../class-tgm-plugin-activation.php:176 ../required_plugins.php:94
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+"شرمنده شما مجوز بروزرسانی پلاگین %s را ندارید. با مدیریت سایت تماس بگیرید."
+
+#: ../class-tgm-plugin-activation.php:177 ../required_plugins.php:95
+msgid "Begin installing plugin"
+msgstr "شروع نصب پلاگین"
+
+#: ../class-tgm-plugin-activation.php:178 ../required_plugins.php:96
+msgid "Begin activating plugin"
+msgstr "شروع فعالسازی پلاگین"
+
+#: ../class-tgm-plugin-activation.php:179 ../required_plugins.php:97
+msgid "Return to Required Plugins Installer"
+msgstr "بازگشت به صفحه نصب پلاگین های مورد نیاز"
+
+#: ../class-tgm-plugin-activation.php:180
+msgid "Return to the dashboard"
+msgstr "بازگشت به داشبورد"
+
+#: ../class-tgm-plugin-activation.php:181
+#: ../class-tgm-plugin-activation.php:1960 ../required_plugins.php:98
+msgid "Plugin activated successfully."
+msgstr "پلاگین با موفقیت فعال شد."
+
+#: ../class-tgm-plugin-activation.php:182
+msgid "The following plugin was activated successfully:"
+msgstr "این پلاگین با موفقیت فعال شد:"
+
+#: ../class-tgm-plugin-activation.php:183
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "همه پلاگین ها با موفقیت نصب و فعال شدند. %1$s"
+
+#: ../class-tgm-plugin-activation.php:184
+msgid "Dismiss this notice"
+msgstr "این پیغام را نادیده بگیر"
+
+#: ../class-tgm-plugin-activation.php:536
+#: ../class-tgm-plugin-activation.php:2177
+msgid "Return to the Dashboard"
+msgstr "بازگشت به داشبورد"
+
+#: ../class-tgm-plugin-activation.php:1171
+#: ../class-tgm-plugin-activation.php:1352
+msgid "Private Repository"
+msgstr "مخزن خصوصی"
+
+#: ../class-tgm-plugin-activation.php:1174
+#: ../class-tgm-plugin-activation.php:1355
+msgid "Pre-Packaged"
+msgstr "از پیش بسته بندی شده"
+
+#: ../class-tgm-plugin-activation.php:1179
+msgid "WordPress Repository"
+msgstr "مخزن وردپرس"
+
+#: ../class-tgm-plugin-activation.php:1182
+msgid "Required"
+msgstr "مورد نیاز"
+
+#: ../class-tgm-plugin-activation.php:1182
+msgid "Recommended"
+msgstr "پیشنهاد شده"
+
+#: ../class-tgm-plugin-activation.php:1185
+msgid "Not Installed"
+msgstr "نصب نشده"
+
+#: ../class-tgm-plugin-activation.php:1187
+msgid "Installed But Not Activated"
+msgstr "نصب شده اما فعال نشده"
+
+#: ../class-tgm-plugin-activation.php:1292
+#: ../class-tgm-plugin-activation.php:1413
+msgid "Install"
+msgstr "نصب"
+
+#: ../class-tgm-plugin-activation.php:1316
+#: ../class-tgm-plugin-activation.php:1414
+msgid "Activate"
+msgstr "فعالسازی"
+
+#: ../class-tgm-plugin-activation.php:1376
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"هیچ پلاگینی نیاز به نصب یا فعالسازی ندارد. <a href=\"%1$s\" title=\"بازگشت "
+"به داشبورد\">بازگشت به داشبورد</a>"
+
+#: ../class-tgm-plugin-activation.php:1392
+msgid "Plugin"
+msgstr "پلاگین"
+
+#: ../class-tgm-plugin-activation.php:1393
+msgid "Source"
+msgstr "منبع"
+
+#: ../class-tgm-plugin-activation.php:1394
+msgid "Type"
+msgstr "نوع"
+
+#: ../class-tgm-plugin-activation.php:1395
+msgid "Status"
+msgstr "وضعیت"
+
+#: ../class-tgm-plugin-activation.php:1943
+msgid "Install package not available."
+msgstr "بسته نصبی در دسترس نیست"
+
+#: ../class-tgm-plugin-activation.php:1944
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "در حال دانلود بسته نصبی از <span class=\"code\">%s</span>&#8230;"
+
+#: ../class-tgm-plugin-activation.php:1945
+msgid "Unpacking the package&#8230;"
+msgstr "در حال گشودن بسته &#8230;"
+
+#: ../class-tgm-plugin-activation.php:1946
+msgid "Installing the plugin&#8230;"
+msgstr "در حال نصب پلاگین &#8230;"
+
+#: ../class-tgm-plugin-activation.php:1947
+msgid "Plugin install failed."
+msgstr "نصب پلاگین با شکست روبرو شد"
+
+#: ../class-tgm-plugin-activation.php:1948
+msgid "Plugin installed successfully."
+msgstr "پلاگین با موفقیت نصب شد"
+
+#: ../class-tgm-plugin-activation.php:1959
+msgid "Plugin activation failed."
+msgstr "فعالسازی پلاگین با شکست روبرو شد"
+
+#: ../class-tgm-plugin-activation.php:2073
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"فرآیند نصب و فعالسازی پلاگین ها شروع شد ، این فرآیند ممکن است در بعضی هاست "
+"ها اندکی طول بکشید ، لطفا شکیبا باشید."
+
+#: ../class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s با موفقیت نصب و فعال شد."
+
+#: ../class-tgm-plugin-activation.php:2074
+#: ../class-tgm-plugin-activation.php:2083
+msgid "Show Details"
+msgstr "مشاهده جزئیات"
+
+#: ../class-tgm-plugin-activation.php:2074
+#: ../class-tgm-plugin-activation.php:2083
+msgid "Hide Details"
+msgstr "پنهان کردن جزئیات"
+
+#: ../class-tgm-plugin-activation.php:2075
+msgid "All installations and activations have been completed."
+msgstr "فرآیند نصب و فعالسازی به پایان رسید."
+
+#: ../class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "در حال نصب و فعال سازی پلاگین %1$s (%2$d/%3$d)"
+
+#: ../class-tgm-plugin-activation.php:2080
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"فرآیند نصب پلاگین ها شروع شد ، این فرآیند ممکن است در بعضی هاست ها اندکی طول "
+"بکشید ، لطفا شکیبا باشید."
+
+#: ../class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "در هنگام نصب  %1$s: <strong>%2$s</strong> یک خطا پیش آمد."
+
+#: ../class-tgm-plugin-activation.php:2082
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "نصب %1$s با شکست روبرو شد"
+
+#: ../class-tgm-plugin-activation.php:2083
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s با موفقیت نصب شد."
+
+#: ../class-tgm-plugin-activation.php:2084
+msgid "All installations have been completed."
+msgstr "فرآیند نصب به پایان رسید."
+
+#: ../class-tgm-plugin-activation.php:2085
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "درحال نصب پلاگین %1$s (%2$d/%3$d)"
+
+#: ../required_plugins.php:86
+msgid "Something went wrong with the plugin API."
+msgstr "یک مشکل با plugin API پیش آمده است."
+
+#: ../required_plugins.php:99
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "همه پلاگین ها با موفقیت نصب و فعال شدند. %s"
